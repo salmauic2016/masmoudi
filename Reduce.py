@@ -9,7 +9,7 @@ nbr = 0
 
 for input in sys.stdin:
 	input = input.strip();
-	key1,val = input.split("\t",1)
+	key1,value = input.split("\t",1)
 	value=int(value)
 
 	if key2 == key1:
